@@ -152,7 +152,7 @@ it("Can accept an invitation that was sent to an email address", () =>
       client,
       organization.id,
       null,
-      "different@example.com"
+      "different2@example.com"
     );
     await becomeRoot(client);
     const {
